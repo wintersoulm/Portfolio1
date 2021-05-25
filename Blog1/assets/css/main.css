@@ -1,0 +1,158 @@
+        body {
+            background-color: black;
+        }
+        
+        .navbar {
+            padding: 30px 10px 20px 50px;
+            background-color: black;
+        }
+        
+        .logo {
+            height: 60px;
+            width: 50px;
+            position: relative;
+            top: -22px;
+            left: 50px;
+            opacity: 2;
+        }
+        
+        .brand-text {
+            color: #2D2E32;
+            font-size: 38px;
+            font-family: 'KoHo', sans-serif;
+            font-weight: 600;
+            position: relative;
+            left: 104px;
+            top: -60px;
+            letter-spacing: 2px;
+        }
+        
+        #navbarTogglerDemo02 {
+            position: absolute;
+            margin-top: 20px;
+            margin-bottom: auto;
+            left: 1100px;
+        }
+        
+        .navbar-nav {
+            font-size: 20px;
+            font-family: 'KoHo', sans-serif;
+            text-decoration: none;
+        }
+        
+        .nav-item {
+            padding-right: 30px;
+        }
+        
+        .nav-link {
+            color: #2D2E32;
+        }
+        
+        .nav-link:hover {
+            text-decoration: none;
+            background: -webkit-linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .jumbotron {
+            background-color: black;
+        }
+        
+        .headerContainer {
+            margin-top: 160px;
+            margin-bottom: auto;
+            background: black;
+            border-radius: 10px;
+        }
+        
+        .display-4 {
+            font-size: 100px;
+            font-family: 'Anton', sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background: -webkit-linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 500;
+        }
+        
+        .lead {
+            margin-top: 10px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: 5px;
+        }
+        
+        .display-4 {
+            -webkit-transition: text-shadow 5s linear;
+            -moz-transition: text-shadow 5s linear;
+            -ms-transition: text-shadow 5s linear;
+            -o-transition: text-shadow 5s linear;
+            transition: text-shadow 3s linear;
+        }
+        
+        .display-4:hover,
+        .display-4.glow {
+            background: -webkit-linear-gradient(60deg, white);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 2px white;
+        }
+        
+        #eligibilityHeader {
+            justify-content: center;
+            margin-bottom: 10px;
+            color: #2D2E32;
+            text-align: center;
+        }
+        
+        .eligibility {
+            font-size: 22px;
+            opacity: 1;
+        }
+        
+        #eligibilityContainer {
+            margin-top: 180px;
+        }
+        
+        #eligibilityImg {
+            width: 40px;
+            height: 40px;
+            opacity: .5;
+        }
+        
+        #eligibilityImages {
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        
+        #about {
+            margin-top: 200px;
+            padding: 20px;
+        }
+        
+        .aboutmeHeader {
+            font-size: 72px;
+            color: rgba(255, 255, 255, 0.911);
+            font-family: 'Anton', sans-serif;
+            margin-top: 70px;
+            text-align: left;
+        }
+        
+        .bio {
+            font-size: 20px;
+            color: #71737a;
+            text-align: left;
+            font-family: sans-serif;
+        }
+        
+        #aboutmeImg {
+            height: 700px;
+            padding-left: 60px;
+        }
+        
+        #hrlight {
+            border-color: rgb(135, 70, 219, .5)
+        }
